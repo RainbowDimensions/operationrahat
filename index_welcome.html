@@ -158,8 +158,17 @@
           close: function(){} // Function: Close callback
         });
     </script>
+	
+	
+    <script>
+ $(document).keypress(function(e) {
+    if(e.which == 13) {
+        window.location.href="launch/index_launch.htm";
+    }
+});
+	</script> 
 
-
+	
         <!-- Full Screen Background Images are defined via JS here: -->
     <script>
         $.backstretch([
