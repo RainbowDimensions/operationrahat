@@ -69,10 +69,12 @@ h3{
     ===================================*/
 
 /*Menu border Color*/
+
 .navbar-default {
 border-color: #000;
 background-color:#242222;
 }
+
 /*Logo Image */
 .navbar-brand-logo {
     max-height:60px;
@@ -84,7 +86,8 @@ background-color:#242222;
 }
 /*top-menu links color on hover*/
     .navbar-default .navbar-nav > li > a:hover {
-        color: #fff;
+       /*color : #000; */       
+	   color: #fff;
     }
 
 /*top-menu links & margin*/    
@@ -101,11 +104,71 @@ background-color:#242222;
 .navbar-default .navbar-toggle .icon-bar {
 background-color: #fff;
 }
+/*=====================================
+   4 IMAGES LEFT-SIDE STYLE SECTION
+    ===================================*/
+	.fixedleft {
+    position: fixed;
+	float: left;
+	
+	overflow: auto;
+	left: 0px;
+    /* bottom: 560px;
+       right: 1000px; 
+      */
+	   }
+	
+
+
+/*=====================================
+   NAVBARLEFT STYLE SECTION
+    ===================================*/
+
+/*Menu border Color*/
+
+
+/*  NAVBAR left images (skill+startup+digital+make) */
+.navbarleft-default {
+border-color: transparent;
+background-color: transparent;
+width: 20%;
+}
+/*Logo Image */
+.navbarleft-brand-logo {
+    max-height:60px;
+    padding-bottom:20px;
+}
+/*top-menu links color*/
+.navbarleft-default .navbarleft-nav > li > a {
+    color: transparent;
+}
+/*top-menu links color on hover*/
+    .navbarleft-default .navbarleft-nav > li > a:hover {
+       /*color : #fff; */       
+	   color: transparent;
+    }
+
+/*top-menu links & margin*/    
+.navbarleft-nav > li > a {
+    margin: 5px 0px 5px 0px;
+}
+/*toggle styles*/ 
+.navbarleft-default .navbarleft-toggle:hover, .navbarleft-default .navbarleft-toggle:focus {
+    background-color:transparent;
+}
+.navbarleft-default .navbarleft-toggle {
+    border:2px solid transparent;
+}
+.navbarleft-default .navbarleft-toggle .icon-bar {
+background-color: transparent;
+}
+
 
 /*=====================================
  HOME SECTION
     ===================================*/
 #home{
+	/* vvv imp here we define e=mc^2 image as background which futher we shall give carousel */
 background: url(../img/head.jpg) no-repeat center center;
 padding: 0;
 -webkit-background-size: cover;
