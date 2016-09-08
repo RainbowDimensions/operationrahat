@@ -263,15 +263,15 @@ background-repeat: repeat-x;
 background-image: linear-gradient(to right,rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, 0) 100%)!important;
 }
 .carousel-indicators li {
-    border:2px solid #159238;
+    border:2px solid #fff;
     width:10px;
     height:10px;
 }
 .carousel-indicators .active {
-    border:2px solid #159238;
+    border:2px solid #fff;
     width:10px;
     height:10px;
-    background:#159238;
+    background:#fff;
 }
 
 /*=====================================
