@@ -310,7 +310,7 @@ color:#fff;
     background-color: #efefef;
 }
 .portfolio-item {
-    border:5px solid #159238;
+    border:5px solid #0f5c9e;
     margin:3px;
 }
     .portfolio-item p {
@@ -325,7 +325,7 @@ color:#fff;
     width: 100%;
   height: 100%;
   opacity: 0;
-  background-color: #159238;
+  background-color: #0f5c9e;
   text-align: center;
   vertical-align: middle;
   -webkit-transition: opacity 300ms;
