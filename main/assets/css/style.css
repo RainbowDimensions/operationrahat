@@ -288,7 +288,8 @@ color:#fff;
               background: url(../img/overlays/02.png);
     }
 .slide-custom {
-    min-height:200px;
+    min-height:300px;
+    max-height:300px;
     padding:100px 20px 100px 20px;
     line-height:30px;
 }

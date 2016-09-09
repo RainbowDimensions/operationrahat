@@ -1,0 +1,3 @@
+Please keep all the image resolution in this folder of the ratio 3:2
+
+Also try to keep all the images of same resolution
