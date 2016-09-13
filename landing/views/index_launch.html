@@ -128,7 +128,7 @@
 <script>
 $(document).keypress(function(e) {
 if(e.which == 13) {
-    window.location.href="..\..\main\index_main.html";
+    window.location.href="../../main/index_main.html"; <!-- Bug was we used ..\..\main due to which Enter button did not work! -->
 }
 });
 </script>
