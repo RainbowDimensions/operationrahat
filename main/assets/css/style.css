@@ -1,4 +1,4 @@
-﻿/*=============================================================
+/*=============================================================
     Authour URI: www.binarytheme.com
     License: Commons Attribution 3.0
 
@@ -68,24 +68,24 @@ h3{
    NAV BAR STYLE SECTION
     ===================================*/
 
-/*Menu border Color*/
+                                                        /*Menu border Color*/
 
 .navbar-default {
 border-color: #000;
 background-color:#242222;
 }
 
-/*Logo Image */
+                                                           /*Logo Image */
 .navbar-brand-logo {
-    max-height:100px;
+    max-height:120px;
 	max-width : 60px;
     padding-bottom: 30px;
 }
-/*top-menu links color*/
+                                                            /*top-menu links color*/
 .navbar-default .navbar-nav > li > a {
     color: #FFF;
 }
-/*top-menu links color on hover*/
+                                                             /*top-menu links color on hover*/
     .navbar-default .navbar-nav > li > a:hover {
        /*color : #000; */
 	   color: #fff;
@@ -93,7 +93,7 @@ background-color:#242222;
 
 /*top-menu links & margin*/
 .navbar-nav > li > a {
-    margin: 5px 0px 5px 0px;
+    margin: 6px 0px 6px 0px;   /* margin: top right bottom left */
 }
 /*toggle styles*/
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
